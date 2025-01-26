@@ -1,0 +1,102 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* sign up */
+.container {
+    margin-top: 30px;
+}
+
+.box {
+    background-color: #fff;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+input, select {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+/* end of sign up*/
+input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4267b2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #365899;
+}
+
+.links {
+    margin-top: 20px;
+}
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.links a {
+    text-decoration: none;
+    color: #4267b2;
+    font-weight: bold;
+    display: block;
+    margin: 5px 0;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    h1, h2 {
+        font-size: 24px;
+    }
+    .container {
+        margin-top: 20px;
+    }
+    .box {
+        padding: 15px;
+    }
+    input, button {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        margin-top: 50px;
+    }
+    .box {
+        max-width: 500px;
+    }
+}
+
