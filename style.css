@@ -115,7 +115,6 @@
     padding: 20px;
     background-color: #161515; 
     color: white;
-    width: 100%;
   }
   
   .footer-list {
@@ -135,6 +134,7 @@
     width: 40px; 
     height: 20px; 
     margin-right: 230px; 
+      width: 100%;
   }
 
 /* Responsive Design */
